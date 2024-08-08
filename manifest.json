@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Glassflow",
+  "version": "1.3.0",
+  "description": "Remove annoying overlays on Glassdoor",
+  "content_scripts": [
+    {
+      "matches": ["*://www.glassdoor.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
